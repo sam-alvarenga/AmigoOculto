@@ -1,28 +1,99 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-        }
-        
-        body {
-            width: 1440px;
-            margin: 0 auto;
-        }
-        
-        .nav-bar {
-            text-align: center;
-            font-size: 35px;
-            color: #BF6734;
-        }
-        
-        .page {
-            width: 50%;
-            background-color: orange;
-            text-align: center;
-            padding: 45px;
-        }
-        
-        #info-name {}
-        
-        .button {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-image: url(img/capa1.png);
+    
+    
+   
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 15px;
+    
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #F28627;
+}
+
+.fa-solid {
+    font-size: 45px;
+    color: #F22259;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.pageone, .pagetwo {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: solid 3px #F22259;
+    border-radius: 10px;
+    background-color: rgba(253, 249, 249, 0.342);
+    margin: 45px;
+}
+
+
+input {
+    padding: 10px 70px;
+    border-radius: 5px;
+    margin-top: 45px;
+    border: solid 2px #F22259;
+
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: blue;
+}
+button {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px #F28627;
+    background-color: #F28627;
+    color: #fff;
+    cursor: pointer;
+}
+
+.text{
+    margin-top: 25px;
+}
+
+.text, .p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F22259;
+}
+
+.pagetwo h2{
+ font-size: 45px;
+ margin-top: 25px;
+ color: #F22259;
+}
+
+.pagetwo input{
+    padding: 75px;
+}
+
