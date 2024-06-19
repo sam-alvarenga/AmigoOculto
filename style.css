@@ -7,9 +7,6 @@
 
 body{
     background-image: url(img/capa1.png);
-    
-    
-   
 }
 
 header {
@@ -20,7 +17,6 @@ header {
     gap: 15px;
     
 }
-
 
 h1 {
     font-size: 45px;
@@ -78,14 +74,21 @@ button {
     cursor: pointer;
 }
 
-.text{
-    margin-top: 25px;
+.prize-draw {
+    background-color: #fff ;
+    border: solid 2px #F22259;
+    width: 70%; 
+    height: 10%;
+    border-radius: 5px;
+    margin: 65px auto;
+    
 }
 
-.text, .p{
+p{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #F22259;
+    margin-top: 25px;
 }
 
 .pagetwo h2{
@@ -94,7 +97,12 @@ button {
  color: #F22259;
 }
 
-.pagetwo input{
-    padding: 75px;
+.drawn{
+    width: 60%;
+    height: 40%;
+    background-color: #fff ;
+    border: solid 2px #F22259;
+    border-radius: 5px;
+    margin: 35px auto;
 }
 
