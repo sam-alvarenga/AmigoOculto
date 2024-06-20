@@ -5,7 +5,7 @@
     list-style: none;
 }
 
-body{
+body {
     background-image: url(img/capa1.png);
 }
 
@@ -15,7 +15,6 @@ header {
     align-items: center;
     padding: 25px;
     gap: 15px;
-    
 }
 
 h1 {
@@ -37,7 +36,8 @@ h1 {
     padding: 0 20px;
 }
 
-.pageone, .pagetwo {
+.pageone,
+.pagetwo {
     width: 400px;
     height: 400px;
     text-align: center;
@@ -47,23 +47,22 @@ h1 {
     margin: 45px;
 }
 
-
 input {
     padding: 10px 70px;
     border-radius: 5px;
     margin-top: 45px;
     border: solid 2px #F22259;
     outline: 0;
-
 }
 
-.btn{
+.btn {
     margin-top: 20px;
 }
 
-button:hover{
+button:hover {
     background-color: #F22259;
 }
+
 button {
     margin: 15px;
     padding: 10px;
@@ -75,34 +74,32 @@ button {
 }
 
 .prize-draw {
-    background-color: #fff ;
+    background-color: #fff;
     border: solid 2px #F22259;
-    width: 70%; 
+    width: 70%;
     height: 10%;
     border-radius: 5px;
     margin: 65px auto;
-    
 }
 
-p{
+p {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #F22259;
     margin-top: 25px;
 }
 
-.pagetwo h2{
- font-size: 45px;
- margin-top: 25px;
- color: #F22259;
+.pagetwo h2 {
+    font-size: 45px;
+    margin-top: 25px;
+    color: #F22259;
 }
 
-.drawn{
+.drawn {
     width: 60%;
     height: 40%;
-    background-color: #fff ;
+    background-color: #fff;
     border: solid 2px #F22259;
     border-radius: 5px;
     margin: 35px auto;
 }
-

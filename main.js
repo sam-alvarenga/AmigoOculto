@@ -1,18 +1,34 @@
 let friend = [];
 const textFriends = document.querySelector('.friends');
-const btnAdicionar = document.querySelector('.add');
+const btnAddFriends = document.querySelector('.add');
 const listParticipantes = document.querySelector('.prize-draw');
-const mensagemErro = document.querySelector('mensagem-erro');
+const mensagemErro = document.querySelector('.mensagem-erro');
 
+btnAddFriends.addEventListener('click', (event) => {
+    if (validateFriend()) {
+        addFriends();
+    }
+});
+textFriends.addEventListener('click', () => {
+    textFriends.value = '';
+})
 
-/* botão adicionar amigos */
-function btnAddFriends() {
-    btnAddFriends.addEventListener('click', (event) => {
-        event.preventDefaul()
-        friend.push(textFriends.value);
-        listParticipantes.textContent =`${textFriends.value}`;
+function addFriends() {
+    if (friend.includes(textFriends.value)) {
+        mensagemErro.textContent = `${textFriends.value} já está na lista! Adicione outro nome`;
+        return;
+    }
+    friend.push(textFriends.value);
+    listParticipantes.textContent = friend.join(",");
+    textFriends.value = '';
 
-    })
 }
 
-btnAddFriends()
+function validatefriend() {
+    if (textFriends.value.length === 0) {
+        mensagemErro.textContent = "Erro - Insira um nome"
+        return false
+    }
+    return true;
+
+}
