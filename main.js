@@ -3,8 +3,10 @@ const txtFriends = document.querySelector('.friends-input');
 //Botões
 const btnAddFriends = document.querySelector('.add');
 const btnReset = document.querySelector('.reset');
+const btnPrize  = document.querySelector('.prize')
 
 const listaParticipantes = document.querySelector('.prize-draw');
+const resultado = document.querySelector('.results');
 const mensagemErro = document.querySelector('.mensagem-erro');
 
 //Botão Adicionar Amigos
@@ -18,6 +20,10 @@ btnAddFriends.addEventListener('click', () => {
 //
 txtFriends.addEventListener('click', () => {
     txtFriends.value = '';
+})
+
+btnPrize.addEventListener('click', () => {
+    btnSortear()
 })
 
 function addFriends() {
@@ -41,12 +47,13 @@ function validateFriend() {
 }
 
 btnReiniciar()
-    //Botão Reiniciar
+//Botão Reiniciar
 function btnReiniciar() {
-    text.value = '';
-    friends = [];
-    listaParticipantes.innerHTML = '';
-    friends.innerHTML = '';
+    btnReset.addEventListener('click', () => {
+        txtFriends.value = '';
+        friends = [];
+        listaParticipantes.innerHTML = '';
 
-
+    })
 }
+
