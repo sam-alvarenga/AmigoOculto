@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: sans-serif;
 }
 
 body {
@@ -53,15 +54,17 @@ input {
     margin-top: 45px;
     border: solid 2px #F22259;
     outline: 0;
+    
 }
 
 span {
     display: block;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     color: #111;
     font-size: 15px;
     font-weight: 800;
+    line-height: 35px;
 }
 
 .btn {
@@ -89,6 +92,8 @@ button {
     height: 10%;
     border-radius: 5px;
     margin: 65px auto;
+    padding: 10px 10px;
+    
 }
 
 p {
@@ -111,4 +116,5 @@ p {
     border: solid 2px #F22259;
     border-radius: 5px;
     margin: 35px auto;
+    /* text-align: center; */
 }
